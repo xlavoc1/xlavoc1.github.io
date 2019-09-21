@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- To jest komentarz -->
+    <a href="">link</a>
+    <a href="">dłuzszy link</a>
+    <a href="">bo tak</a>
+    <span>jakiś span</span>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta temporibus ut incidunt iusto dolores
+        reprehenderit?</p>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <!-- odnosniki -->
+    <a href="https://akademia108.pl">Link do akademii</a>
+    <a href="#sekcja">Link do sekcji</a>
+    <a href="mailto:kursy@akademia108.pl">kursy@akademia108.pl</a>
+    <a href="podstrony/contact.html">Kontakt</a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section id="sekcja">Sekcja</section>
+    <!-- Tabele -->
+    <table>
+        <thead>
+            <tr>
+                <th>Produkt</th>
+                <th>Ilość</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    Kawa
+                </td>
+                <td>
+                    2
+                </td>
+            </tr>
+            <tr>
+                <td>Herbata</td>
+                <td>4</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Razem</td>
+                <td>6</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!-- formularz -->
+    <form action="" method="POST">
+        <!-- action frontendowca nie obchodzi - dot.backendowcow -->
+        <label for="user">Imię i nazwisko</label>
+        <input id="user" type="text" name="user" placeholder="Imię i nazwisko">
+        <input type="email" name="email" placeholder="mail" disabled>
+        <input type="quantity" value="2"><br>
+        <input type="checkbox" name="agreement" id="agreement" required> <!-- bezpieczniej required w js -->
+        <label for="agreement">Wyrażam zgodę na..</label>
+        <label><input type="radio" name="gender">Kobieta</label>
+        <label><input type="radio" name="gender">Mężczyzna</label>
+
+        <select name="cities">
+            <option value="Warszawa">Warszawa</option>
+            <option value="Kraków">Kraków</option>
+            <option value="Gdynia">Gdynia</option>
+        </select><br><br>
+        <br>
+        <br>
+        <textarea name="message" placeholder="rozpisz się trochę"></textarea>
+        <input type="submit" value="wyślij wiadomość">
+
+
+    </form>
+    <!-- Iframes SA DO STRON DO KTORYCH NIE MAMY DOSTEPU DO HTML -  NIE MOZNA ICH EDYTOWAC -->
+    <iframe width="700" height="400"
+        src="https://www.pexels.com/photo/man-and-woman-standing-on-hallway-surrounded-by-led-lights-1182127/"
+        frameborder="0"></iframe>
+
+    <!-- SVG grafika wektorowa (.svg albo .eps) -->
+
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="black" stroke-width="4" fill="yellow" />
+    </svg>
+
+
+
+
+</body>
+
+</html>
