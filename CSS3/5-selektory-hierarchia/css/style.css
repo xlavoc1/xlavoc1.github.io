@@ -1,0 +1,18 @@
+/* p{
+    background-color: yellow !important;
+nie uzywamy
+} */
+
+p#paragraph{
+    background-color: green;
+}
+
+p.paragraph {
+    background-color: aqua;
+}
+
+p {
+    background-color: brown;
+}
+
+/* style w html nadpisze pozostale */
