@@ -1,0 +1,29 @@
+#p1 {
+    background-color: greenyellow;
+}
+
+#p2 {
+    background-color: lightcoral;
+}
+
+#inline-p1 {
+    background-color: royalblue;
+    display: inline;
+}
+
+#inline-p2 {
+    background-color: yellowgreen;
+    display: inline;
+}
+
+#inline-block-elements li {
+    display: inline-block;
+    width: 120px;
+    height: 45px;
+    margin: 10px;
+    background-color: turquoise;
+}
+
+#display-none {
+    display: none;
+}

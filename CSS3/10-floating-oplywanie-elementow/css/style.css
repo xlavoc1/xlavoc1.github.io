@@ -1,0 +1,17 @@
+/* #strawberry {
+    float: left;
+} */
+
+#strawberry {
+    float: none;
+}
+
+#strawberry2 {
+    float: right;
+}
+/* 
+p:last-child {
+background-color: royalblue;
+clear: both;
+} */
+

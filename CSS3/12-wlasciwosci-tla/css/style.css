@@ -1,0 +1,18 @@
+#background-img {
+    background-color: firebrick;
+    background-image: url('../img/strawberry.jpg');
+    /* background-repeat: repeat-y; */
+    background-repeat: no-repeat;
+    background-position: top center;
+    /* background-size: 45% 75%; */
+    /* background-size: contain; */
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+
+}
+
+
+/* sztuczka z dymem
+bg-blend-mode: difference; - miesza kolory ze soba - po przecinku mozemy dac drugi obrazek w url i overlay w blendmode
+*/
